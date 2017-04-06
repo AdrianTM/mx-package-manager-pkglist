@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 03 Apr 2017 10:11:54 -0400
+Source: mx-package-manager-pkglist
+Binary: mx-package-manager-pkglist
+Architecture: source all
+Version: 17.4mx16
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-package-manager-pkglist - Part of MX program for installing additional packages.
+Changes:
+ mx-package-manager-pkglist (17.4mx16) mx; urgency=medium
+ .
+   * initial setup
+Checksums-Sha1:
+ fae70e4bd47d3e49e419a6ccf9448f976b265849 1239 mx-package-manager-pkglist_17.4mx16.dsc
+ ca8ad72a337dc453e4561f85425bfd98b406b763 21336 mx-package-manager-pkglist_17.4mx16.tar.xz
+ 5604c349a5bdc8c67d7bf928dea1806727e490d3 3092 mx-package-manager-pkglist_17.4mx16_all.deb
+Checksums-Sha256:
+ 873b67d98998ed3f677a08d06bb1c34004aa8adf36f2bfc703197dd169958a62 1239 mx-package-manager-pkglist_17.4mx16.dsc
+ 8ab8287a46e62b84a3432b974d93a197683e29ae11a623cd926382d1ee142489 21336 mx-package-manager-pkglist_17.4mx16.tar.xz
+ d15028ffa93d1e18ae354b0b230940198b30e8dfbd53758e077184ae18e213e7 3092 mx-package-manager-pkglist_17.4mx16_all.deb
+Files:
+ 09dfcd68b742e3b5d9a2e05876c7d32e 1239 admin optional mx-package-manager-pkglist_17.4mx16.dsc
+ 5d9bf23ccaf2806e04b2b34263d895b9 21336 admin optional mx-package-manager-pkglist_17.4mx16.tar.xz
+ 95bdafc8bd03e4cb4d9b28ba1987c279 3092 admin optional mx-package-manager-pkglist_17.4mx16_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJY5qOpAAoJEHCTjHgGee6Yb3YIANU1ZvAkNuWqsQPAT9gv/dxq
+ZbD5R6IRHk6tO/5TZFtLDFSFPGesv6zCmSVjPEhaIxGbrK91+f3PFIWi/HUG7EI5
+YFYZWQ3n+HUP5C2IboZhl0yrkHZo/gYpVh7fzpk6zoTt4eSsc4jdj0sj32brUmnA
+v344z+qJJW412sXml2pMZnEh4VKB2AOq7n9OaU0ZMjB07u/SnIJMyWcbKzVzinvj
+/n3WIDr42fw5WTPg9dXfE8GCH2xPfinaLX3BmH4JoO3b2ysoAoWZwiSfIx4fwxVt
+lka1TijSzX1i7s3fdg/0XZnBg0vXHoJW/3MXc3OfSSPHGDPSxnYa3zdddK9hFS4=
+=IAB9
+-----END PGP SIGNATURE-----
