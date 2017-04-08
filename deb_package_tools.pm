@@ -21,10 +21,7 @@ all
 
 <preinstall>
 #!/bin/bash
-echo \"---- in preprocessing ----\"
 cp /etc/apt/sources.list.d/debian.list /etc/apt/pbuilder.list
-echo \"---- preprocessing done----\"
-
 </preinstall>
 
 <install_package_names>
@@ -42,9 +39,7 @@ dpkg-dev
 
 <postinstall>
 #!/bin/bash
-echo \"---- in postprocessing ----\"
 rm -f /etc/apt/pbuilder.list
-echo \"---- postprocessing done----\"
 </postinstall>
 
 

@@ -6,7 +6,7 @@ Browser
 </category>
 
 <name>  
-Google-Chrome
+Google_Chrome
 </name>
 
 <description>  
@@ -20,16 +20,9 @@ Latest Google Chrome browser (stable)
 <screenshot>https://www.google.com/chrome/assets/common/images/marquee/chrome-new.jpg</screenshot>
 
 <preinstall>
-#!/bin/bash
-echo \"---- in preprocessing ----\""        
-echo \"Connecting to dl.google.com and downloading the latest version of Google Chrome browser\"
 wget -qO- dl.google.com/linux/chrome/deb/dists/stable/main/binary-$(dpkg --print-architecture)/Packages | grep ^Filename.*google-chrome-stable.*deb | cut -d' ' -f2 | sed 's ^ dl.google.com/linux/chrome/deb/ ' | xargs wget
-echo \"---- preprocessing done----\"
-echo \"Installing Google Chrome browser\" 
-dpkg -i google-chrome-stable*.deb
-apt-get -f install -y
-echo \"Installation completed.\"
-
+x-terminal-emulator -e dpkg -i google-chrome-stable*.deb
+x-terminal-emulator -e apt-get -f install -y
 </preinstall>
 
 <install_package_names>
@@ -45,5 +38,4 @@ rm google-chrome-stable*.deb
 <uninstall_package_names>
 google-chrome-stable
 </uninstall_package_names>
-
 </app>
