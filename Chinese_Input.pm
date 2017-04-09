@@ -2,31 +2,35 @@
 <app>
 
 <category>
-Remote Access
+Language
 </category>
 
 <name>  
-Remmina
+Chinese_Input
 </name>
 
 <description>  
-a remote desktop client supporting vnc and rdp
+Chinese ibus
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>https://screenshots.debian.net/screenshots/000/011/154/large.png</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-remmina
-remmina-plugin-vnc
-remmina-plugin-rdp
+fonts-arphic-uming
+im-config
+ibus-pinyin
+ibus-qt4
+ibus-gtk3
+python-appindicator
+manpages-zh
 </install_package_names>
 
 
@@ -36,8 +40,12 @@ remmina-plugin-rdp
 
 
 <uninstall_package_names>
-remmina
-remmina-plugin-vnc
-remmina-plugin-rdp
+fonts-arphic-uming
+im-config
+ibus-pinyin
+ibus-qt4
+ibus-gtk3
+python-appindicator
+manpages-zh
 </uninstall_package_names>
 </app>

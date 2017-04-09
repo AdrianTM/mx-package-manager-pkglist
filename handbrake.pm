@@ -10,7 +10,7 @@ Handbrake
 </name>
 
 <description>  
-versatile DVD ripper and video transcoder (cli & GUI)
+versatile DVD ripper and video transcoder (cli and GUI)
 </description>
 
 <installable>

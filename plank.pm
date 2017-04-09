@@ -17,7 +17,7 @@ Simple but good looking dock
 all
 </installable>
 
-<screenshot>https://screenshots.debian.net/package/plank</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/015/110/large.png</screenshot>
 
 <preinstall>
 

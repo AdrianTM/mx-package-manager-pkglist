@@ -2,31 +2,31 @@
 <app>
 
 <category>
-Remote Access
+Language
 </category>
 
 <name>  
-Remmina
+Hungarian
 </name>
 
 <description>  
-a remote desktop client supporting vnc and rdp
+Hungarian Language Meta-Package
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>https://screenshots.debian.net/screenshots/000/011/154/large.png</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-remmina
-remmina-plugin-vnc
-remmina-plugin-rdp
+      aspell-hu
+      myspell-hu
+      manpages-hu 
 </install_package_names>
 
 
@@ -36,8 +36,8 @@ remmina-plugin-rdp
 
 
 <uninstall_package_names>
-remmina
-remmina-plugin-vnc
-remmina-plugin-rdp
+      aspell-hu
+      myspell-hu
+      manpages-hu 
 </uninstall_package_names>
 </app>

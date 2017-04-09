@@ -2,31 +2,31 @@
 <app>
 
 <category>
-Remote Access
+Language
 </category>
 
 <name>  
-Remmina
+Portugese(BR) 
 </name>
 
 <description>  
-a remote desktop client supporting vnc and rdp
+Portugese(BR) Language Meta-Package
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>https://screenshots.debian.net/screenshots/000/011/154/large.png</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-remmina
-remmina-plugin-vnc
-remmina-plugin-rdp
+aspell-pt-br
+      myspell-pt-br
+      manpages-pt
 </install_package_names>
 
 
@@ -36,8 +36,8 @@ remmina-plugin-rdp
 
 
 <uninstall_package_names>
-remmina
-remmina-plugin-vnc
-remmina-plugin-rdp
+aspell-pt-br
+      myspell-pt-br
+      manpages-pt
 </uninstall_package_names>
 </app>

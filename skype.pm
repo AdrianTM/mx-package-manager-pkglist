@@ -17,7 +17,7 @@ VoIP, Instant Messaging and Video Conferencing
 all
 </installable>
 
-<screenshot>https://screenshots.debian.net/screenshots/000/009/009/large.png</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 x-terminal-emulator -e wget -O skype-install.deb http://www.skype.com/go/getskype-linux-deb

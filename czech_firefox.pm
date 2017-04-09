@@ -2,31 +2,29 @@
 <app>
 
 <category>
-Remote Access
+Language
 </category>
 
 <name>  
-Remmina
+Czech_Firefox
 </name>
 
 <description>  
-a remote desktop client supporting vnc and rdp
+Czech localisation of Firefox
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>https://screenshots.debian.net/screenshots/000/011/154/large.png</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-remmina
-remmina-plugin-vnc
-remmina-plugin-rdp
+firefox-l10n-xpi-cs
 </install_package_names>
 
 
@@ -36,8 +34,6 @@ remmina-plugin-rdp
 
 
 <uninstall_package_names>
-remmina
-remmina-plugin-vnc
-remmina-plugin-rdp
+firefox-l10n-xpi-cs
 </uninstall_package_names>
 </app>
