@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 03 Apr 2017 10:11:54 -0400
+Source: mx-package-manager-pkglist
+Binary: mx-package-manager-pkglist
+Architecture: source all
+Version: 17.4mx16
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-package-manager-pkglist - Part of MX program for installing additional packages.
+Changes:
+ mx-package-manager-pkglist (17.4mx16) mx; urgency=medium
+ .
+   * initial setup
+Checksums-Sha1:
+ 6578ae320b4387108f2e92326ff6de5fa2f7fa23 718 mx-package-manager-pkglist_17.4mx16.dsc
+ 05d92fec5adce4f2dc70133704e217679d7c6974 28260 mx-package-manager-pkglist_17.4mx16.tar.xz
+ 4c25b44e4c52c4b54a3a5e40058c4f2cbb5c0ee4 24802 mx-package-manager-pkglist_17.4mx16_all.deb
+Checksums-Sha256:
+ 5921fada825ea6c9d9e2ef5cf8cda4818b74611905a120677a71d31a9300593d 718 mx-package-manager-pkglist_17.4mx16.dsc
+ 095c483323a3ba4a90788ccbeb86d22e5891bd282890802588369110f42a91c6 28260 mx-package-manager-pkglist_17.4mx16.tar.xz
+ fda50ebffd285750d402d75fca129d91271bcfa3546eb7aadb2119c658fbf5b1 24802 mx-package-manager-pkglist_17.4mx16_all.deb
+Files:
+ d09d363a80c90ec51de0d1396ecb7853 718 admin optional mx-package-manager-pkglist_17.4mx16.dsc
+ f956ccdc3d0f6af894f76f685fc4253e 28260 admin optional mx-package-manager-pkglist_17.4mx16.tar.xz
+ 229312ddadc8160af6e2cd3bc28af0d0 24802 admin optional mx-package-manager-pkglist_17.4mx16_all.deb
