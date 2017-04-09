@@ -10,7 +10,7 @@ Remmina
 </name>
 
 <description>  
-a remote desktop client supporting vnc & rdp
+a remote desktop client supporting vnc and rdp
 </description>
 
 <installable>

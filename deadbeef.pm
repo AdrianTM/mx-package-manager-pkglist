@@ -17,7 +17,7 @@ simple audio player
 all
 </installable>
 
-<screenshot>http://deadbeef.sourceforge.net/screenshots/0.6/05.png</screenshot>
+<screenshot>http://deadbeef.sourceforge.net/screenshots/0.6/06.png</screenshot>
 
 <preinstall>
 

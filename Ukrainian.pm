@@ -2,29 +2,31 @@
 <app>
 
 <category>
-FileManagers
+Language
 </category>
 
 <name>  
-PCManFM
+Ukrainian
 </name>
 
 <description>  
-a fast and lightweight file manager
+Ukrainian Language Meta-Package
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>https://screenshots.debian.net/screenshots/000/000/678/large.png</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-pcmanfm
+aspell-uk
+	console-cyrillic
+	myspell-uk
 </install_package_names>
 
 
@@ -34,6 +36,8 @@ pcmanfm
 
 
 <uninstall_package_names>
-pcmanfm
+aspell-uk
+	console-cyrillic
+	myspell-uk 
 </uninstall_package_names>
 </app>
