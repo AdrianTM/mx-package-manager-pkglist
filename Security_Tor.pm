@@ -2,30 +2,30 @@
 <app>
 
 <category>
-Audio
+Network
 </category>
 
 <name>  
-XMMS
+Tor and Privoxy
 </name>
 
 <description>  
-multimedia player modelled on winamp
+Tor and Privoxy
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+tor
+privoxy
 </install_package_names>
 
 
@@ -35,7 +35,7 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+tor
+privoxy
 </uninstall_package_names>
 </app>

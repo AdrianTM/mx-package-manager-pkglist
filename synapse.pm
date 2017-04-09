@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Utility
 </category>
 
 <name>  
-XMMS
+Synapse
 </name>
 
 <description>  
-multimedia player modelled on winamp
+alternate semantic file launcher
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/009/035/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+synapse
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+synapse
 </uninstall_package_names>
 </app>

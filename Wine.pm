@@ -2,40 +2,40 @@
 <app>
 
 <category>
-Audio
+Misc
 </category>
 
 <name>  
-XMMS
+Wine
 </name>
 
 <description>  
-multimedia player modelled on winamp
+run Windows applications without a copy of Microsoft Windows
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+wine-staging
+wine-staging-compat
 </install_package_names>
 
 
 <postinstall>
-
+/usr/share/mx-packageinstaller-pkglist/run_winecfg.sh
 </postinstall>
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+wine-staging
+wine-staging-compat
 </uninstall_package_names>
 </app>

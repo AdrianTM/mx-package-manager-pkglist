@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Media Converter
 </category>
 
 <name>  
-XMMS
+Arista
 </name>
 
 <description>  
-multimedia player modelled on winamp
+a python based simple multimedia transcoder
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/004/665/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+arista
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+arista
 </uninstall_package_names>
 </app>

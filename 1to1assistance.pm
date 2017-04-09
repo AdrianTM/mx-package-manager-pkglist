@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Remote Access
 </category>
 
 <name>  
-XMMS
+1-to-1 Assistance
 </name>
 
 <description>  
-multimedia player modelled on winamp
+Remote access help app from antiX
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+1-to-1-assistance-antix
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+1-to-1-assistance-antix
 </uninstall_package_names>
 </app>

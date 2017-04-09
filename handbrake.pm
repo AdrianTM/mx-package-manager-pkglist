@@ -2,30 +2,30 @@
 <app>
 
 <category>
-Audio
+Media Converter
 </category>
 
 <name>  
-XMMS
+Handbrake
 </name>
 
 <description>  
-multimedia player modelled on winamp
+versatile DVD ripper and video transcoder (cli & GUI)
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/014/720/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+handbrake
+handbrake-cli
 </install_package_names>
 
 
@@ -35,7 +35,7 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+handbrake
+handbrake-cli
 </uninstall_package_names>
 </app>

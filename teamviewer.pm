@@ -2,30 +2,32 @@
 <app>
 
 <category>
-Audio
+Remote Access
 </category>
 
 <name>  
-XMMS
+TeamViewer
 </name>
 
 <description>  
-multimedia player modelled on winamp
+Teamviewer remote access
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
-
+x-terminal-emulator -e wget http://download.teamviewer.com/download/teamviewer_i386.deb"
+x-terminal-emulator -e dpkg -i teamviewer_i386.deb
+x-terminal-emulator -e apt-get -f install -y
+rm teamviewer_i386.deb
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+
 </install_package_names>
 
 
@@ -35,7 +37,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+teamviewer
 </uninstall_package_names>
 </app>

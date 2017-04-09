@@ -2,30 +2,31 @@
 <app>
 
 <category>
-Audio
+Remote Access
 </category>
 
 <name>  
-XMMS
+Remmina
 </name>
 
 <description>  
-multimedia player modelled on winamp
+a remote desktop client supporting vnc & rdp
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/011/154/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+remmina
+remmina-plugin-vnc
+remmina-plugin-rdp
 </install_package_names>
 
 
@@ -35,7 +36,8 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+remmina
+remmina-plugin-vnc
+remmina-plugin-rdp
 </uninstall_package_names>
 </app>

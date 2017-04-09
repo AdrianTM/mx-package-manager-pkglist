@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Network
 </category>
 
 <name>  
-XMMS
+Blueman
 </name>
 
 <description>  
-multimedia player modelled on winamp
+a GTK+ bluetooth management utility
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/004/965/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+blueman
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+blueman
 </uninstall_package_names>
 </app>

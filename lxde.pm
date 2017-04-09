@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Window Managers
 </category>
 
 <name>  
-XMMS
+LXDE
 </name>
 
 <description>  
-multimedia player modelled on winamp
+basic install of LXDE
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/000/519/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+lxde
 </install_package_names>
 
 
@@ -35,7 +34,18 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+lxde
+lxappearance-obconf
+lxsession-edit
+lxterminal
+lxde-core
+lxde-icon-theme
+lxinput
+lxrandr
+lxlauncher
+lxtask
+update-notifier
+lxmusic
+lxpanel
 </uninstall_package_names>
 </app>

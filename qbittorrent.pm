@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Torrent
 </category>
 
 <name>  
-XMMS
+qBittorrent
 </name>
 
 <description>  
-multimedia player modelled on winamp
+a QT4 feature rich but lightweight client that is very similar to uTorrent
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/014/486/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+qbittorrent
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+qbittorrent
 </uninstall_package_names>
 </app>

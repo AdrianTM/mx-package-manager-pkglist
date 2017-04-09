@@ -1,31 +1,31 @@
 <?xml version="1.0"?>
 <app>
 
+
 <category>
-Audio
+Screencast
 </category>
 
 <name>  
-XMMS
+SimpleScreenRecorder
 </name>
 
 <description>  
-multimedia player modelled on winamp
+a Qt-based screencast recorder
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/015/303/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+simplescreenrecorder
 </install_package_names>
 
 
@@ -35,7 +35,7 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+simplescreenrecorder
 </uninstall_package_names>
+
 </app>

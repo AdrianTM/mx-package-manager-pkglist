@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Office
 </category>
 
 <name>  
-XMMS
+GnuCash
 </name>
 
 <description>  
-multimedia player modelled on winamp
+personal and small-business financial-accounting software
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/007/648/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+gnucash
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+gnucash
 </uninstall_package_names>
 </app>

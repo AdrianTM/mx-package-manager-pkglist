@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Media Converter
 </category>
 
 <name>  
-XMMS
+WinFF 
 </name>
 
 <description>  
-multimedia player modelled on winamp
+graphical video and audio batch converter 
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/009/557/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+winff
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+winff
 </uninstall_package_names>
 </app>

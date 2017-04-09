@@ -2,30 +2,30 @@
 <app>
 
 <category>
-Audio
+Video
 </category>
 
 <name>  
-XMMS
+SMplayer
 </name>
 
 <description>  
-multimedia player modelled on winamp
+themable gui frontend to MPlayer with other interesting features
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/015/414/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+smplayer
+smplayer-themes
 </install_package_names>
 
 
@@ -35,7 +35,7 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+smplayer
+smplayer-themes
 </uninstall_package_names>
 </app>

@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Newsreader
 </category>
 
 <name>  
-XMMS
+Pan
 </name>
 
 <description>  
-multimedia player modelled on winamp
+a gnome Usenet newsreader
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/000/586/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+pan
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+pan
 </uninstall_package_names>
 </app>

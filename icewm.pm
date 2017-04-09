@@ -2,30 +2,31 @@
 <app>
 
 <category>
-Audio
+Window Managers
 </category>
 
 <name>  
-XMMS
+IceWM
 </name>
 
 <description>  
-multimedia player modelled on winamp
+lightweight environment 
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/000/088/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+icewm
+icewm-common
+icewm-themes-antix
 </install_package_names>
 
 
@@ -35,7 +36,8 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+icewm
+icewm-common
+icewm-themes-antix
 </uninstall_package_names>
 </app>
