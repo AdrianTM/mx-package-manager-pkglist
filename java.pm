@@ -2,30 +2,31 @@
 <app>
 
 <category>
-Audio
+Misc
 </category>
 
 <name>  
-XMMS
+Java
 </name>
 
 <description>  
-multimedia player modelled on winamp
+Java 8- installs openjdk-8 and icedtea
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+openjdk-8-jre
+openjdk-8-jre-headless
+icedtea-8-plugin 
 </install_package_names>
 
 
@@ -35,7 +36,8 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+openjdk-8-jre
+openjdk-8-jre-headless
+icedtea-8-plugin
 </uninstall_package_names>
 </app>

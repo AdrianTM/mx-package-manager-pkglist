@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Utility
 </category>
 
 <name>  
-XMMS
+Streamlight
 </name>
 
 <description>  
-multimedia player modelled on winamp
+View Youtube Videos outside the browser by selecting links
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+streamlight-antix
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+streamlight-antix
 </uninstall_package_names>
 </app>

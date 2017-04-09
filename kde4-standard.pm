@@ -2,30 +2,31 @@
 <app>
 
 <category>
-Audio
+Window Managers
 </category>
 
 <name>  
-XMMS
+KDE4-standard
 </name>
 
 <description>  
-multimedia player modelled on winamp
+standard install of KDE4
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/006/731/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+kde-standard
+virtuoso-minimal
+phonon4qt5
 </install_package_names>
 
 
@@ -35,7 +36,10 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+kde-plasma-desktop
+phonon4qt5
+kde-standard
+virtuoso-minimal
+phonon4qt5
 </uninstall_package_names>
 </app>

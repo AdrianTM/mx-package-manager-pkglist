@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Media Center
 </category>
 
 <name>  
-XMMS
+Kodi
 </name>
 
 <description>  
-multimedia player modelled on winamp
+Kodi Media Center (formerly XBMC)
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/013/655/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+kodi
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+kodi
 </uninstall_package_names>
 </app>

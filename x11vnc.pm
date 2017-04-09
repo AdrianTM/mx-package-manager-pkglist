@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Remote Access
 </category>
 
 <name>  
-XMMS
+x11vnc
 </name>
 
 <description>  
-multimedia player modelled on winamp
+VNC server for X window environments
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+x11vnc
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+x11vnc
 </uninstall_package_names>
 </app>

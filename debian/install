@@ -1,2 +1,3 @@
 *.pm		usr/share/mx-package-manager-pkglist
+run_winecfg.sh	usr/share/mx-package-manager-pkglist
 

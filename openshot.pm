@@ -2,30 +2,31 @@
 <app>
 
 <category>
-Audio
+Video
 </category>
 
 <name>  
-XMMS
+Openshot
 </name>
 
 <description>  
-multimedia player modelled on winamp
+non-linear video editor
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/009/285/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+openshot
+openshot-doc
+frei0r-plugins
 </install_package_names>
 
 
@@ -35,7 +36,8 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+openshot
+openshot-doc
+frei0r-plugins
 </uninstall_package_names>
 </app>

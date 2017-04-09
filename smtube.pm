@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Video
 </category>
 
 <name>  
-XMMS
+SMtube
 </name>
 
 <description>  
-multimedia player modelled on winamp
+search and download Youtube videos
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/010/334/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+smtube
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+smtube
 </uninstall_package_names>
 </app>

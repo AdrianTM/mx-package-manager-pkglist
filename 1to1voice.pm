@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Messaging
 </category>
 
 <name>  
-XMMS
+1-to-1 Voice
 </name>
 
 <description>  
-multimedia player modelled on winamp
+voice chat between two pc's via encrypted mumble
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+1-to-1-voice-antix
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+1-to-1-voice-antix
 </uninstall_package_names>
 </app>

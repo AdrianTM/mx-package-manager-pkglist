@@ -2,30 +2,37 @@
 <app>
 
 <category>
-Audio
+Printing
 </category>
 
 <name>  
-XMMS
+HP Printing extras
 </name>
 
 <description>  
-multimedia player modelled on winamp
+HP printing extras
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+printer-driver-hpijs
+hpijs-ppds
+hplip-data
+hplip-gui
+cups
+cups-pdf
+cups-client
+magicfilter
+gv
 </install_package_names>
 
 
@@ -35,7 +42,11 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+printer-driver-hpijs
+hpijs-ppds
+hplip-data
+hplip-gui
+magicfilter
+gv
 </uninstall_package_names>
 </app>

@@ -15,14 +15,14 @@ Changes:
  .
    * initial setup
 Checksums-Sha1:
- 5c96b7c043a92e66527f0d638a2356de3da26db4 718 mx-package-manager-pkglist_17.4mx16.dsc
- 49f3c557379dc3448d507813602e77b89840ba8a 18352 mx-package-manager-pkglist_17.4mx16.tar.xz
- fa25eb07da87784b9fae47638747d42597bc8e81 9518 mx-package-manager-pkglist_17.4mx16_all.deb
+ f19ef41d9ba51518583e561b8326b90562ed2593 718 mx-package-manager-pkglist_17.4mx16.dsc
+ 760b86bf2148d11002895d5a8fe1ae48b3f74a07 22756 mx-package-manager-pkglist_17.4mx16.tar.xz
+ b51d35d75c77cef748a552668e679fe4bb84c451 15434 mx-package-manager-pkglist_17.4mx16_all.deb
 Checksums-Sha256:
- 3184526438398b2fa1b88b8a6de2d5c27d717a4107b15cad8d7fa5d5f98707f7 718 mx-package-manager-pkglist_17.4mx16.dsc
- fde3ceb1fee46a0fd7ff338d87982f3f4ddac62143e17196e229989f636adf45 18352 mx-package-manager-pkglist_17.4mx16.tar.xz
- c645f969f6e15d813887c6873543ff31ff5921dc355619fe89235cb9370cf56b 9518 mx-package-manager-pkglist_17.4mx16_all.deb
+ b49480501c676e0d91e63ee7906868210d042d8985d49ae587754ae2e1d1fcbc 718 mx-package-manager-pkglist_17.4mx16.dsc
+ 8185a263d8f8ef009894fe79001fb563d0b532d470af0b8558aae0aef29b7d8f 22756 mx-package-manager-pkglist_17.4mx16.tar.xz
+ 76e694f6b649f740e955b004fa630037f81f952268dcef81f8c30b7bc8b2b7a2 15434 mx-package-manager-pkglist_17.4mx16_all.deb
 Files:
- a5852eed1a7dc1728d6a2a01ff295ce5 718 admin optional mx-package-manager-pkglist_17.4mx16.dsc
- a134ad64c9d4242b1fd1e3f7c584797e 18352 admin optional mx-package-manager-pkglist_17.4mx16.tar.xz
- 09dcad2146b20ec999b64cbe885b0bf3 9518 admin optional mx-package-manager-pkglist_17.4mx16_all.deb
+ a0747ce1d7c80e2aacb1ec48a3d49d23 718 admin optional mx-package-manager-pkglist_17.4mx16.dsc
+ fd96b441c1865615e292f129dc3bcd7e 22756 admin optional mx-package-manager-pkglist_17.4mx16.tar.xz
+ 2a3363c0c0f9d86ae599bd7ced7d602c 15434 admin optional mx-package-manager-pkglist_17.4mx16_all.deb

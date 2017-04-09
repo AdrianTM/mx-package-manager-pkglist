@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Torrent
 </category>
 
 <name>  
-XMMS
+rTorrent
 </name>
 
 <description>  
-multimedia player modelled on winamp
+an ncurses BitTorrent client
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/001/284/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+rtorrent
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+rtorrent
 </uninstall_package_names>
 </app>

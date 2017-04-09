@@ -2,30 +2,32 @@
 <app>
 
 <category>
-Audio
+Network
 </category>
 
 <name>  
-XMMS
+Dropbox
 </name>
 
 <description>  
-multimedia player modelled on winamp
+a GTK+ bluetooth management utility
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>none</screenshot>
 
 <preinstall>
-
+echo "deb http://linux.dropbox.com/debian/ jessie main">/etc/apt/sources.list.d/dropbox.list
+apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+x-terminal-emulator -e apt-get update
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+dropbox
+python-gpgme
 </install_package_names>
 
 
@@ -35,7 +37,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+dropbox
 </uninstall_package_names>
 </app>

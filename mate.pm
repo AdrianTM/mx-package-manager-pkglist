@@ -2,30 +2,30 @@
 <app>
 
 <category>
-Audio
+Window Managers
 </category>
 
 <name>  
-XMMS
+MATE
 </name>
 
 <description>  
-multimedia player modelled on winamp
+basic install of MATE desktop
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/010/990/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+mate-core
+mate-desktop-environment
 </install_package_names>
 
 
@@ -35,7 +35,7 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+mate-core
+mate-desktop-environment
 </uninstall_package_names>
 </app>

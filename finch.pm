@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Messaging
 </category>
 
 <name>  
-XMMS
+Finch
 </name>
 
 <description>  
-multimedia player modelled on winamp
+a text-console-based, modular instant messaging client
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/012/569/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+finch
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+finch
 </uninstall_package_names>
 </app>

@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Office
 </category>
 
 <name>  
-XMMS
+Calibre
 </name>
 
 <description>  
-multimedia player modelled on winamp
+an e-book library management application
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/014/971/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+calibre
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+calibre
 </uninstall_package_names>
 </app>

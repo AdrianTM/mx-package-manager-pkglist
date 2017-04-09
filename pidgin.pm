@@ -2,30 +2,29 @@
 <app>
 
 <category>
-Audio
+Messaging
 </category>
 
 <name>  
-XMMS
+Pidgin
 </name>
 
 <description>  
-multimedia player modelled on winamp
+an easy to use and free chat client
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>http://www.xmms.org/screenshots/main.gif</screenshot>
+<screenshot>https://screenshots.debian.net/screenshots/000/009/009/large.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-xmms
-xmms-plugins-antix
+pidgin
 </install_package_names>
 
 
@@ -35,7 +34,6 @@ xmms-plugins-antix
 
 
 <uninstall_package_names>
-xmms
-xmms-plugins-antix
+pidgin
 </uninstall_package_names>
 </app>
