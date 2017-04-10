@@ -20,7 +20,7 @@ all
 <screenshot>none</screenshot>
 
 <preinstall>
-x-terminal-emulator -e wget http://download.teamviewer.com/download/teamviewer_i386.deb"
+x-terminal-emulator -e wget http://download.teamviewer.com/download/teamviewer_i386.deb
 x-terminal-emulator -e dpkg -i teamviewer_i386.deb
 x-terminal-emulator -e apt-get -f install -y
 rm teamviewer_i386.deb

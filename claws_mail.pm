@@ -25,7 +25,7 @@ all
 
 <install_package_names>
 claws-mail
-claws-mail-i10n
+claws-mail-i18n
 </install_package_names>
 
 
@@ -36,6 +36,6 @@ claws-mail-i10n
 
 <uninstall_package_names>
 claws-mail
-claws-mail-i10n
+claws-mail-i18n
 </uninstall_package_names>
 </app>

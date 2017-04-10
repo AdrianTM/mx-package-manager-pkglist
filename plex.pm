@@ -21,7 +21,7 @@ all
 
 <preinstall>
 curl http://shell.ninthgate.se/packages/shell.ninthgate.se.gpg.key |apt-key add -
-echo "deb http://shell.ninthgate.se/packages/debian wheezy main">/etc/apt/sources.list.d/plex.list"
+echo "deb http://shell.ninthgate.se/packages/debian wheezy main">/etc/apt/sources.list.d/plex.list
 x-terminal-emulator -e apt-get update
 </preinstall>
 
