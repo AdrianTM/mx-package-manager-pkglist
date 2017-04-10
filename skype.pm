@@ -22,7 +22,7 @@ all
 <preinstall>
 x-terminal-emulator -e wget -O skype-install.deb http://www.skype.com/go/getskype-linux-deb
 x-terminal-emulator -e dpkg -i skype-install.deb
-x-terminal-emulator -e apt-get -f install -y
+x-terminal-emulator -e apt-get -f install
 x-terminal-emulator -e apt-get install -y pulseaudio pulseaudio-module-x11 gstreamer0.10-pulseaudio rtkit pavucontrol
 rm -f skype-install.deb
 </preinstall>

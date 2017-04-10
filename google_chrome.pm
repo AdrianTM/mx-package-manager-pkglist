@@ -20,18 +20,16 @@ Latest Google Chrome browser (stable)
 <screenshot>https://www.google.com/chrome/assets/common/images/marquee/chrome-new.jpg</screenshot>
 
 <preinstall>
-wget -qO- dl.google.com/linux/chrome/deb/dists/stable/main/binary-$(dpkg --print-architecture)/Packages | grep ^Filename.*google-chrome-stable.*deb | cut -d' ' -f2 | sed 's ^ dl.google.com/linux/chrome/deb/ ' | xargs wget
-x-terminal-emulator -e dpkg -i google-chrome-stable*.deb
-x-terminal-emulator -e apt-get -f install -y
+echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main">/etc/apt/sources.list.d/chrometemp.list
 </preinstall>
 
 <install_package_names>
-
+google-chrome-stable
 </install_package_names>
 
 
 <postinstall>
-rm google-chrome-stable*.deb
+rm /etc/apt/sources.list.d/chrometemp.list
 </postinstall>
 
 
