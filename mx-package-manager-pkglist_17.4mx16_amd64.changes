@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 Format: 1.8
 Date: Mon, 03 Apr 2017 10:11:54 -0400
 Source: mx-package-manager-pkglist
@@ -15,14 +18,26 @@ Changes:
  .
    * initial setup
 Checksums-Sha1:
- 9c5c263f93ad1f6f55f0dc97f33705aefde8d62e 718 mx-package-manager-pkglist_17.4mx16.dsc
- 5545e33fce1cf34d7a0dbe2da38eb0643746cbde 82804 mx-package-manager-pkglist_17.4mx16.tar.xz
- 85df857497500284b6220627fa1d5cb08f189095 24712 mx-package-manager-pkglist_17.4mx16_all.deb
+ 45c47d00176f0021ba355ad4ac1e3ae5c615f321 1239 mx-package-manager-pkglist_17.4mx16.dsc
+ ef7558f4f2b7d06ff8b1d4018c5fecbc7276bca7 27172 mx-package-manager-pkglist_17.4mx16.tar.xz
+ 3ed56a53b9b1c9a2ac413e951f4c41a792a4a1ef 23756 mx-package-manager-pkglist_17.4mx16_all.deb
 Checksums-Sha256:
- 8bf8a15e0120aee9468d5101b5f6c616e70d7b8af9a38ca5e0d054390fde2d4a 718 mx-package-manager-pkglist_17.4mx16.dsc
- 854c2034eb9c8fe7cbfb522dbd82c761b819b2b0dae7c58fa64f439383efd148 82804 mx-package-manager-pkglist_17.4mx16.tar.xz
- e4ec7b09c62e3a1c57f72cde593b2b3ee0a46d3d0161409394c93853bb7ab268 24712 mx-package-manager-pkglist_17.4mx16_all.deb
+ 77dd4fd6f5bc7f20bc3b968f4eca7b8d6ccce32e3f413efd1f852aa1ba3e5e17 1239 mx-package-manager-pkglist_17.4mx16.dsc
+ 6b0d058ba0f6c0d566535941d73a82d402a511d100f86094b3cc8894cd659644 27172 mx-package-manager-pkglist_17.4mx16.tar.xz
+ 55b638bcddaf88fff98ae01286d16e4d26df36b4b8b59aaf75611a6c924dbbb4 23756 mx-package-manager-pkglist_17.4mx16_all.deb
 Files:
- d38ad215736ee8c98aedce3c6b30ba9c 718 admin optional mx-package-manager-pkglist_17.4mx16.dsc
- 734579f62587b05b49e440c0702da2df 82804 admin optional mx-package-manager-pkglist_17.4mx16.tar.xz
- f4592347e3392c3f2dab8e25f38ef60e 24712 admin optional mx-package-manager-pkglist_17.4mx16_all.deb
+ ed5ff21cba637254cb7628b2e2bd835a 1239 admin optional mx-package-manager-pkglist_17.4mx16.dsc
+ 17d12205d4a7e9656f12aa4a31572eee 27172 admin optional mx-package-manager-pkglist_17.4mx16.tar.xz
+ 82e27b568a6ee5c3e7782ab89ceb000f 23756 admin optional mx-package-manager-pkglist_17.4mx16_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJY64pQAAoJEHCTjHgGee6YRIgH/0ULlwYCMnhwMmvUfJsOk60m
+Eectrgw/T0VfEsSBwL5wgGlMY+AinG7kl5t042valeAxl0cXTY5Y74VJjDRaxZMr
+ZceXKZ6yZIzyHOVfYZKGRk1Kq3ohfzBeT3BwCAp26IRweWrQ0m6MMYznoN9eJZuJ
+Riiqo0hWad7/PCtsl5oD918RsgOjj/nPv42x8g3jwR2TJm6Zbv8E9GxR4o0jrdAi
+SvCqzQ+3SlfMlYK+HT/uaFL2Ov3HsyVYqWx8A9THF9SJQpydt/LiJPFCYYjK+ETD
+GenYmpuNXlYJQwXGrQtEjxtkmc7n8U/2qsw4kyyT2tuhX98JnpMrj7CO/fbhsZA=
+=95hr
+-----END PGP SIGNATURE-----
