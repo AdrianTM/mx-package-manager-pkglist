@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
-
 Format: 1.8
 Date: Mon, 03 Apr 2017 10:11:54 -0400
 Source: mx-package-manager-pkglist
@@ -18,26 +15,14 @@ Changes:
  .
    * initial setup
 Checksums-Sha1:
- 45c47d00176f0021ba355ad4ac1e3ae5c615f321 1239 mx-package-manager-pkglist_17.4mx16.dsc
- ef7558f4f2b7d06ff8b1d4018c5fecbc7276bca7 27172 mx-package-manager-pkglist_17.4mx16.tar.xz
- 3ed56a53b9b1c9a2ac413e951f4c41a792a4a1ef 23756 mx-package-manager-pkglist_17.4mx16_all.deb
+ 846aed5ed72e128bb0ea069b9e2cd9d77a50e603 721 mx-package-manager-pkglist_17.4mx16.dsc
+ d3f04f9449d280decd16a11185c2ec59523b4e93 138084 mx-package-manager-pkglist_17.4mx16.tar.xz
+ 8a38bcaa674080347c59b8f85185547da1c682e5 24720 mx-package-manager-pkglist_17.4mx16_all.deb
 Checksums-Sha256:
- 77dd4fd6f5bc7f20bc3b968f4eca7b8d6ccce32e3f413efd1f852aa1ba3e5e17 1239 mx-package-manager-pkglist_17.4mx16.dsc
- 6b0d058ba0f6c0d566535941d73a82d402a511d100f86094b3cc8894cd659644 27172 mx-package-manager-pkglist_17.4mx16.tar.xz
- 55b638bcddaf88fff98ae01286d16e4d26df36b4b8b59aaf75611a6c924dbbb4 23756 mx-package-manager-pkglist_17.4mx16_all.deb
+ a0b268cc1ccba6ed024b1051181edae36f0b2bb43601d89ca2d9203c2abd0dd9 721 mx-package-manager-pkglist_17.4mx16.dsc
+ b26aa036b3ee80742b8fc428cf69ba8fc22fb6bfeeb3f95fec8727eb3761cec2 138084 mx-package-manager-pkglist_17.4mx16.tar.xz
+ 3e56e084b873980f5ae56d1dffc9d45d903133dc491df45d232511f8991cd246 24720 mx-package-manager-pkglist_17.4mx16_all.deb
 Files:
- ed5ff21cba637254cb7628b2e2bd835a 1239 admin optional mx-package-manager-pkglist_17.4mx16.dsc
- 17d12205d4a7e9656f12aa4a31572eee 27172 admin optional mx-package-manager-pkglist_17.4mx16.tar.xz
- 82e27b568a6ee5c3e7782ab89ceb000f 23756 admin optional mx-package-manager-pkglist_17.4mx16_all.deb
-
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1
-
-iQEcBAEBAgAGBQJY64pQAAoJEHCTjHgGee6YRIgH/0ULlwYCMnhwMmvUfJsOk60m
-Eectrgw/T0VfEsSBwL5wgGlMY+AinG7kl5t042valeAxl0cXTY5Y74VJjDRaxZMr
-ZceXKZ6yZIzyHOVfYZKGRk1Kq3ohfzBeT3BwCAp26IRweWrQ0m6MMYznoN9eJZuJ
-Riiqo0hWad7/PCtsl5oD918RsgOjj/nPv42x8g3jwR2TJm6Zbv8E9GxR4o0jrdAi
-SvCqzQ+3SlfMlYK+HT/uaFL2Ov3HsyVYqWx8A9THF9SJQpydt/LiJPFCYYjK+ETD
-GenYmpuNXlYJQwXGrQtEjxtkmc7n8U/2qsw4kyyT2tuhX98JnpMrj7CO/fbhsZA=
-=95hr
------END PGP SIGNATURE-----
+ 21dcf687a8117606e893a03d13cadde1 721 admin optional mx-package-manager-pkglist_17.4mx16.dsc
+ a354306d4d061abd8c313b25e479dae9 138084 admin optional mx-package-manager-pkglist_17.4mx16.tar.xz
+ cf79f8ae927289ca1a4c80cbab6e16a8 24720 admin optional mx-package-manager-pkglist_17.4mx16_all.deb
