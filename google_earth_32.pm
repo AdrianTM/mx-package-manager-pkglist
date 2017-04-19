@@ -22,8 +22,8 @@ Google Earth Globe
 <preinstall>
 x-terminal-emulator -e wget http://dl.google.com/dl/earth/client/current/google-earth-stable_current_i386.deb
 x-terminal-emulator -e dpkg -i google-earth-stable*.deb
-x-terminal-emulator -e apt-get -f install -y
-x-terminal-emulator -e apt-get install -y pulseaudio pulseaudio-module-x11 gstreamer0.10-pulseaudio rtkit pavucontrol
+x-terminal-emulator -e apt-get -f install
+x-terminal-emulator -e apt-get install pulseaudio pulseaudio-module-x11 gstreamer0.10-pulseaudio rtkit pavucontrol
 rm google-earth-stable*.deb
 </preinstall>
 

@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
-
 Format: 3.0 (native)
 Source: mx-package-manager-pkglist
 Binary: mx-package-manager-pkglist
@@ -13,20 +10,8 @@ Build-Depends: debhelper (>= 7.0.50~)
 Package-List:
  mx-package-manager-pkglist deb admin optional arch=all
 Checksums-Sha1:
- ef7558f4f2b7d06ff8b1d4018c5fecbc7276bca7 27172 mx-package-manager-pkglist_17.4mx16.tar.xz
+ d3f04f9449d280decd16a11185c2ec59523b4e93 138084 mx-package-manager-pkglist_17.4mx16.tar.xz
 Checksums-Sha256:
- 6b0d058ba0f6c0d566535941d73a82d402a511d100f86094b3cc8894cd659644 27172 mx-package-manager-pkglist_17.4mx16.tar.xz
+ b26aa036b3ee80742b8fc428cf69ba8fc22fb6bfeeb3f95fec8727eb3761cec2 138084 mx-package-manager-pkglist_17.4mx16.tar.xz
 Files:
- 17d12205d4a7e9656f12aa4a31572eee 27172 mx-package-manager-pkglist_17.4mx16.tar.xz
-
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1
-
-iQEcBAEBAgAGBQJY64koAAoJEHCTjHgGee6Yk8UH/iUN6DO+3LQnkLQClOe/+2wu
-id0pSt31tWuPIDrzTDLOv50/peXHpYsWcKrvR14z9T8AFUseK93BY28GsqMIX/6Z
-982fUK3cX+01vzsmR+wsozcXyMCGX6YE5zjJwXYEXAiQ+w+wXOWxPMwEkOOq//Px
-m7/ZBLZI7ScafxB5YnblIS4CsDuMxu47RNNupPzpAb+XRY/cy6T9lMWmPkIJSmB1
-P6a5uFdOcrbXiYZ0080rcN3viNmv+YqsFR4GuQE3pzOSCH5ybORpVJkGELQE+WZ2
-bax+DKq3z9Lab5xPwQGU/NwbI0FYzjdO5eh0x9DPwBJ4U1Fp/qdRZ1gHJacP7RE=
-=nSPL
------END PGP SIGNATURE-----
+ a354306d4d061abd8c313b25e479dae9 138084 mx-package-manager-pkglist_17.4mx16.tar.xz
