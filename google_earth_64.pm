@@ -31,7 +31,7 @@ googleearth-package
 <postinstall>
 x-terminal-emulator -e 'make-googleearth-package --force'
 x-terminal-emulator -e dpkg -i googleearth_6.0.3.2197+1.2.0-1_amd64.deb
-x-terminal-emulator -e apt-get install -f -y
+x-terminal-emulator -e apt-get install -f
 rm googleearth*.deb
 rm GoogleEarthLinux.bin
 </postinstall>

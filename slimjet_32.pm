@@ -22,7 +22,7 @@ Latest Slimjet Browser (run again for updates)
 <preinstall>
 x-terminal-emulator -e wget http://www.slimjet.com/release/slimjet_i386.deb
 x-terminal-emulator -e dpkg -i slimjet*.deb
-x-terminal-emulator -e apt-get -f install -y
+x-terminal-emulator -e apt-get -f install
 </preinstall>
 
 <install_package_names>
